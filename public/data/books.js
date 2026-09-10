@@ -6,12 +6,29 @@
         assets/books/  too, if you have the right to share it.
      2. Add an entry below. Fields:
         title, author, year, description
+        authorUrl: (optional) link for the author's name
+        note: (optional) short line shown under the author, e.g. about the author
         cover: (optional) image path; if omitted a styled cover is generated
         tags: array of short labels, e.g. ["Handbook", "Scouts"]
         links: array of { label, href } buttons (read online / download)
         status: (optional) "available" | "coming-soon"
 ------------------------------------------------------------------- */
 window.BOOKS = [
+  {
+    title: "First Aid Proficiency Badge",
+    author: "Ahtisham Ali Baig",
+    authorUrl: "https://ahtishamalibaig.com/",
+    note: "Wood Badge holder. Written as his Wood Badge project for the Boy Scout section.",
+    year: "2022",
+    description: "A complete 74-page First Aid course for the Boy Scout (middle) section: principles of first aid, hygiene, bandaging with the triangular bandage, bleeding and pressure points, sprains, burns, bites and stings, shock, choking, CPR for adults and children, the recovery position, fractures, heatstroke, electric shock and more, ending with the tasks a Scout must complete for the First Aid Proficiency Badge.",
+    cover: "assets/books/first-aid-cover.jpg",
+    tags: ["Boy Scout section", "Proficiency badge", "Ismaili Scouts"],
+    links: [
+      { label: "Read the book (PDF)", href: "assets/books/first-aid-proficiency-badge.pdf" },
+      { label: "About the author", href: "https://ahtishamalibaig.com/" }
+    ],
+    status: "available"
+  },
   {
     title: "Scouting for Boys",
     author: "Robert Baden-Powell",
