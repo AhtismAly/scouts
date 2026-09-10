@@ -17,35 +17,35 @@
 ------------------------------------------------------------------- */
 window.ACTIVITIES = [
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cole_Canoe_Base_Boy_Scout_Campfire.JPG/1280px-Cole_Canoe_Base_Boy_Scout_Campfire.JPG",
+    src: "assets/images/scout-campfire.jpg",
     caption: "Campfire evening",
     date: "Sample photo",
     category: "camping",
     credit: "Wiblackburn, CC BY-SA 3.0, via Wikimedia Commons"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pfadi_Arbor_Felix_Nachtaufnahme.jpg/1280px-Pfadi_Arbor_Felix_Nachtaufnahme.jpg",
+    src: "assets/images/scout-camp-night.jpg",
     caption: "Camp under the stars",
     date: "Sample photo",
     category: "camping",
     credit: "Florko97, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hunza_Valley%2C_view_from_Eagle%27s_Nest.jpg/1280px-Hunza_Valley%2C_view_from_Eagle%27s_Nest.jpg",
+    src: "assets/images/hunza-eagles-nest.jpg",
     caption: "Hunza Valley from Eagle's Nest",
     date: "Trekking country",
     category: "camping",
     credit: "Alllexxxis, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rakaposhi_%28Domani%29.jpg/1280px-Rakaposhi_%28Domani%29.jpg",
+    src: "assets/images/rakaposhi.jpg",
     caption: "Rakaposhi from Domani",
     date: "Trekking country",
     category: "camping",
     credit: "Kinetic84, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/ac/BP_and_future_Scouts_at_Brownsea.jpg",
+    src: "assets/images/brownsea-1907.jpg",
     caption: "Baden-Powell with the first Scouts, Brownsea Island, 1907",
     date: "Heritage",
     category: "ceremony",
