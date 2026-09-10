@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activities — Ismaili Scouts</title>
+<meta name="description" content="Photo gallery of Ismaili Scouts activities: camps, treks, service, ceremonies and training.">
+<meta name="theme-color" content="#6d1f9f">
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:title" content="Activities — Ismaili Scouts">
+<meta property="og:description" content="Photo gallery of Ismaili Scouts activities: camps, treks, service, ceremonies and training.">
+<meta property="og:image" content="https://ismailiscout.com/icons/icon-512.png">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="index.html">
+      <img src="icons/badge.png" alt="Ismaili Scouts badge">
+      <span><span class="brand__name">Ismaili Scouts</span><span class="brand__tag">Service before self</span></span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="nav__links" id="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About &amp; History</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="contact.html">Join / Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Gallery</span>
+    <h1>Activities</h1>
+    <p class="lead">Camps, treks, service days and ceremonies — a growing album of life in the Ismaili Scouts. Click any photo to view it large.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="filters" id="filters" role="group" aria-label="Filter photos"></div>
+    <div class="gallery" id="gallery" aria-live="polite"></div>
+    <p class="small muted mt-2">Sample photographs are openly licensed via Wikimedia Commons and credited in the viewer. To publish your own photos, drop them into <code>assets/activities/</code> and list them in <code>data/activities.js</code>.</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="icons/badge-round.png" alt=""><strong>Ismaili Scouts</strong></div>
+        <p class="small">Building character, skills and a spirit of service in young people — in the tradition begun by our first Chief Scout, Prince Aly Khan, in 1930.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">Our history</a></li>
+          <li><a href="activities.html">Activities gallery</a></li>
+          <li><a href="books.html">Books &amp; resources</a></li>
+          <li><a href="contact.html">Join us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Scouting</h4>
+        <ul>
+          <li><a href="https://www.scout.org/" target="_blank" rel="noopener">World Organization of the Scout Movement</a></li>
+          <li><a href="https://the.ismaili/" target="_blank" rel="noopener">The Ismaili</a></li>
+          <li><a href="https://idbsahunza.wixsite.com/idbsahunza" target="_blank" rel="noopener">IDBSA Hunza</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@ismailiscout.com">info@ismailiscout.com</a></li>
+          <li><a href="https://github.com/AhtismAly/scouts" target="_blank" rel="noopener">Website source on GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Ismaili Scouts &middot; ismailiscout.com</span>
+      <span>Historical photographs via Wikimedia Commons (public domain / CC BY-SA), credited where shown.</span>
+    </div>
+  </div>
+</footer>
+<script src="data/activities.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
