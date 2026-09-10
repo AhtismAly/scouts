@@ -4,12 +4,12 @@
    To add a photo:
      1. Copy the image into  assets/activities/
      2. Add an entry below. Fields:
-        src      – path to the image (or a full https:// URL)
-        caption  – short title shown on the tile
-        date     – free text, e.g. "August 2026"
-        category – one of: camping | service | ceremony | training | sports | culture
-        credit   – (optional) photographer / licence note
-     3. Commit & push. That's it — no build step.
+        src: path to the image (or a full https:// URL)
+        caption: short title shown on the tile
+        date: free text, e.g. "August 2026"
+        category: one of: camping | service | ceremony | training | sports | culture
+        credit: (optional) photographer / licence note
+     3. Commit & push. That's it, no build step.
 
    The sample entries below use openly-licensed photos from Wikimedia
    Commons so the gallery is not empty on day one. Replace them with

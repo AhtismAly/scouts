@@ -6,10 +6,10 @@
         assets/books/  too, if you have the right to share it.
      2. Add an entry below. Fields:
         title, author, year, description
-        cover    – (optional) image path; if omitted a styled cover is generated
-        tags     – array of short labels, e.g. ["Handbook", "Scouts"]
-        links    – array of { label, href } buttons (read online / download)
-        status   – (optional) "available" | "coming-soon"
+        cover: (optional) image path; if omitted a styled cover is generated
+        tags: array of short labels, e.g. ["Handbook", "Scouts"]
+        links: array of { label, href } buttons (read online / download)
+        status: (optional) "available" | "coming-soon"
 ------------------------------------------------------------------- */
 window.BOOKS = [
   {
@@ -28,7 +28,7 @@ window.BOOKS = [
     title: "Aids to Scoutmastership",
     author: "Robert Baden-Powell",
     year: "1919",
-    description: "A short guide for leaders on the aims of Scouting — character, health, handcraft and service — and how a Scoutmaster brings them out in young people.",
+    description: "A short guide for leaders on the aims of Scouting (character, health, handcraft and service) and how a Scoutmaster brings them out in young people.",
     tags: ["Leaders", "Classic"],
     links: [
       { label: "Find on Internet Archive", href: "https://archive.org/search?query=%22Aids+to+Scoutmastership%22" }
@@ -39,7 +39,7 @@ window.BOOKS = [
     title: "Rovering to Success",
     author: "Robert Baden-Powell",
     year: "1922",
-    description: "Baden-Powell's book for Rovers — older Scouts stepping into adult life — on paddling your own canoe past the 'rocks' that lie in the way.",
+    description: "Baden-Powell's book for Rovers, older Scouts stepping into adult life, on paddling your own canoe past the 'rocks' that lie in the way.",
     tags: ["Rovers", "Classic"],
     links: [
       { label: "Find on Internet Archive", href: "https://archive.org/search?query=%22Rovering+to+Success%22" }
@@ -50,7 +50,7 @@ window.BOOKS = [
     title: "The Wolf Cub's Handbook",
     author: "Robert Baden-Powell",
     year: "1916",
-    description: "The original handbook for the youngest section — the Wolf Cubs, known in the Ismaili Scouts as the Shaheen Unit.",
+    description: "The original handbook for the youngest section, the Wolf Cubs, known in the Ismaili Scouts as the Shaheen Unit.",
     tags: ["Cubs / Shaheen", "Classic"],
     links: [
       { label: "Find on Internet Archive", href: "https://archive.org/search?query=%22Wolf+Cub%27s+Handbook%22" }

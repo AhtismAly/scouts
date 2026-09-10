@@ -1,8 +1,8 @@
-# Ismaili Scouts — ismailiscout.com
+# Ismaili Scouts: ismailiscout.com
 
 Static website for the Ismaili Scouts: introduction, history, activities gallery, books & resources, and a join/contact page.
 
-No build step — plain HTML, CSS and JavaScript in `public/`, hosted on Cloudflare Workers at ismailiscout.com.
+No build step: plain HTML, CSS and JavaScript in `public/`, hosted on Cloudflare Workers at ismailiscout.com.
 
 ## Structure
 
