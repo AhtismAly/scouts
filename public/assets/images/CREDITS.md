@@ -14,6 +14,10 @@ All images in this folder come from Wikimedia Commons and are used under their s
 | rakaposhi.jpg | Rakaposhi_(Domani).jpg | Kinetic84 | CC BY-SA 4.0 |
 | karachi-skyline.jpg | Karachi_Skyline_2025.jpg | Ktownboy103 | CC0 |
 | scout-campfire.jpg | Cole_Canoe_Base_Boy_Scout_Campfire.JPG | Wiblackburn | CC BY-SA 3.0 |
+| chitral-tirich-mir.jpg | Chitral_Valley_in_the_Laps_of_Tirich_Mir_(7708m).jpg | Uzair189 | CC BY-SA 4.0 |
+| islamabad-faisal-mosque.jpg | Faisal_Mosque_snuggled_in_the_hills_of_Margalla.jpg | Shoaib Zafar | CC BY-SA 4.0 |
+| lahore-badshahi-mosque.jpg | Badshahi_Mosque_Lahore_,_Pakistan.jpg | Harvinder Chandigarh | CC BY 4.0 |
+| ghizer-phander-lake.jpg | Phander_Lake,_Ghizer,_Gilgit–Baltistan.jpg | FaizanAhmad | CC BY-SA 4.0 |
 | scout-camp-night.jpg | Pfadi_Arbor_Felix_Nachtaufnahme.jpg | Florko97 | CC BY-SA 4.0 |
 
 Source pages: https://commons.wikimedia.org/wiki/File:<name above>
