@@ -30,7 +30,10 @@
       <button class="tile reveal" type="button" data-idx="${idx}" aria-label="Open photo: ${escapeHtml(it.caption)}">
         <img src="${it.src}" alt="${escapeHtml(it.caption)}" loading="lazy">
         <span class="tile__cap">${escapeHtml(it.caption)}<small>${escapeHtml(it.date || '')}</small></span>
-      </button>`).join('');
+      </button>`).join('') +
+      `<div class="tile tile--placeholder reveal">
+         <div><img src="icons/badge.png" alt=""><div>Your next photo goes here</div></div>
+       </div>`;
     requestAnimationFrame(() => grid.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible')));
   }
 
