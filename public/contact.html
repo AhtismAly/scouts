@@ -73,7 +73,7 @@
       <span class="eyebrow">Message us</span>
       <h2>Registration &amp; enquiries</h2>
       <div class="rule"></div>
-      <form class="form contact-card" action="mailto:info@ismailiscout.com" method="post" enctype="text/plain">
+      <form class="form contact-card" id="enquiry-form" action="https://formspree.io/f/FORM_ID" method="POST">
         <div class="form__row">
           <label>Full name<input type="text" name="name" required autocomplete="name"></label>
           <label>Email<input type="email" name="email" required autocomplete="email"></label>
@@ -90,8 +90,10 @@
           </label>
         </div>
         <label>Message<textarea name="message" rows="5" placeholder="Tell us a little about yourself…"></textarea></label>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <input type="hidden" name="_subject" value="New enquiry from ismailiscout.com">
         <button class="btn btn--primary" type="submit">Send message</button>
-        <p class="form__note">This form opens your email app with the details filled in. For a hosted form, connect a service such as Formspree or Netlify Forms in <code>contact.html</code>.</p>
+        <p class="form__note" id="form-status">Your message goes straight to the Ismaili Scouts team. We usually reply within a few days.</p>
       </form>
     </div>
   </div>
@@ -137,6 +139,7 @@
     </div>
   </div>
 </footer>
+<script src="js/form.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
