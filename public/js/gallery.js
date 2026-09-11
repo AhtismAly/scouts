@@ -23,18 +23,14 @@
   function render() {
     visible = items.filter((i) => current === 'all' || i.category === current);
     if (!visible.length) {
-      grid.innerHTML = `<div class="empty">No photos in this category yet. Add some in <code>data/activities.js</code>.</div>`;
+      grid.innerHTML = `<div class="empty">No photos in this category yet.</div>`;
       return;
     }
     grid.innerHTML = visible.map((it, idx) => `
       <button class="tile reveal" type="button" data-idx="${idx}" aria-label="Open photo: ${escapeHtml(it.caption)}">
         <img src="${it.src}" alt="${escapeHtml(it.caption)}" loading="lazy">
         <span class="tile__cap">${escapeHtml(it.caption)}<small>${escapeHtml(it.date || '')}</small></span>
-      </button>`).join('') +
-      `<div class="tile tile--placeholder reveal">
-         <div><img src="icons/badge.png" alt=""><div>Your next photo goes here</div>
-         <small class="muted">Add it in data/activities.js</small></div>
-       </div>`;
+      </button>`).join('');
     requestAnimationFrame(() => grid.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible')));
   }
 
