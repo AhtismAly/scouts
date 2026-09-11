@@ -1,12 +1,18 @@
 {
-  // Cloudflare Workers config — serves the static site in ./public
-  // Docs: https://developers.cloudflare.com/workers/static-assets/
+  // Cloudflare Workers config: serves the static site in ./public and
+  // handles the enquiry form at /api/enquiry (worker.js), emailing via
+  // Cloudflare Email Routing (send_email binding "SEB").
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "scouts",
   "compatibility_date": "2026-09-01",
+  "main": "worker.js",
   "assets": {
     "directory": "./public",
+    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  "send_email": [
+    { "name": "SEB", "destination_address": "ahtismaly@gmail.com" }
+  ]
 }
