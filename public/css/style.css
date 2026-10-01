@@ -21,7 +21,7 @@
   --radius: 14px;
   --serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --max: 1720px;
+  --max: 2400px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -43,7 +43,7 @@ h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); }
 h3 { font-size: 1.3rem; }
 p { margin: 0 0 1.1em; }
 .lead { font-size: 1.18rem; color: var(--ink-soft); }
-.wrap { width: min(var(--max), 100% - 2.5rem); margin-inline: auto; }
+.wrap { width: 100%; max-width: var(--max); margin-inline: auto; padding-inline: clamp(1rem, 3vw, 3rem); }
 .section { padding-block: clamp(3rem, 7vw, 5.5rem); }
 .section--tint { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .section--purple { background: linear-gradient(160deg, var(--purple-deep), var(--purple)); color: #fff; }
