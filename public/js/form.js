@@ -1,6 +1,6 @@
-/* Enquiry form: submit to Formspree via fetch so the visitor stays on the page.
-   Set the form's action to your Formspree endpoint (https://formspree.io/f/XXXX).
-   Until that is set (action still contains FORM_ID), the form shows a friendly notice. */
+/* Enquiry form: submits to the Cloudflare Worker (/api/enquiry) via fetch so the
+   visitor stays on the page. After a successful send the form resets and the button
+   re-enables, so one person can send as many enquiries as they want without reloading. */
 (function () {
   const form = document.getElementById('enquiry-form');
   const status = document.getElementById('form-status');
@@ -33,8 +33,12 @@
       if (res.ok) {
         form.reset();
         status.style.color = '#1a7f4b';
-        status.textContent = 'Thank you. Your message has been sent, and we will be in touch soon.';
+        status.textContent = 'Thank you. Your message has been sent, and we will be in touch soon. You can send another any time.';
         btn.textContent = 'Sent ✓';
+        setTimeout(() => {
+          btn.disabled = false;
+          btn.textContent = original;
+        }, 2500);
       } else {
         const data = await res.json().catch(() => ({}));
         const msg = (data.errors && data.errors.map((x) => x.message).join(', ')) || 'Something went wrong.';
